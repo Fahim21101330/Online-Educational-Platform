@@ -4,8 +4,8 @@ class UserTest extends \PHPUnit\Framework\TestCase{
     
     public function testReturnUserName(){
         $user = new \App\Model\User;
-        $user->setUserName('Anurag');
-        $this->assertEquals($user->getUserName(), 'Anurag');
+        $user->setUserName('Fahim');
+        $this->assertEquals($user->getUserName(), 'Fahim');
     }
     public function testReturnCourseCode(){
         $user = new \App\Model\User;
@@ -14,14 +14,14 @@ class UserTest extends \PHPUnit\Framework\TestCase{
     }
     public function testReturnEmailAddress(){
 		$user = new \App\Model\User;
-		$user->setEmail('anuragdutta74@gmail.com');
-        $this->assertEquals($user->getEmail(), 'anuragdutta74@gmail.com');
+		$user->setEmail('shahrierfahim00@gmail.com');
+        $this->assertEquals($user->getEmail(), 'shahrierfahim00@gmail.com');
     }
 
       
     /*public function testUserNameIsEmptyByDefault(){
         $user = new \App\Model\User;
-        $user->setUserName('Anu');
+        $user->setUserName('Fs');
         $this->assertEquals($user->getUserName(), '');
     }
     public function testCourseCodeShouldCorrect(){
